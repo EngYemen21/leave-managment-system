@@ -43,10 +43,12 @@ Follow these steps to set up the project locally:
 5. Configure the Database:
 6. Run Migrations:
     php artisan migrate
-7. Install NPM Dependencies & Build Assets: If you use npm for Tailwind CSS:
+   php artisan db:seed
+8. Install NPM Dependencies & Build Assets: If you use npm for Tailwind CSS:
     npm install
     npm run dev
-8. Run the Application:
+    php artisan test
+10. Run the Application:
     php artisan serve
 
 
